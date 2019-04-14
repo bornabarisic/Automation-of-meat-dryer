@@ -1,0 +1,2 @@
+# Automation-of-meat-dryer
+Automatization of meat drier. Basic principle: with simple graphic interface, made in PyQtDesigner, person can monitor room temperature and humidity. Also he can set two parameters, such as treshold temperature for toggling heat system and treshold temperature at wich ventilation system is either on or off. I used Raspberry Pi model B as a server with graphic interface with which a person can sent information to a client (ESP WiFi module). Arduino Mega is used as a control unit which aquire sensor data and control heat and ventilation systems. 
